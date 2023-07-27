@@ -1,0 +1,46 @@
+//new date()
+------------------------
+//Get method
+************************
+==>//toDateString()  //returns the date portion of date object
+const a = new Date();//date object-a fixed
+console.log(a.toDateString());
+//getDate()
+const a = new Date();//date object-a fixed returns date
+console.log(a.getDate());
+//getFullyear()
+const a = new Date();//date object-a fixed returns fullyear
+console.log(a.getFullyear());
+//getMonth()
+const a = new Date();//date object-a fixed returns month
+console.log(a.getMonth());
+//getDay() returns day of the week of day(0 to 6)
+//getHours() returns the hours(0 to 23)
+//getMinutes() returns minutes(0 to 59)
+//getSeconds() returns getSeconds
+//getMilliseconds() returns milliseconds(0 to 999)
+//getTime() return the number of milliseconds since jan 1
+const e=new Date();
+console.log(e.getDay());
+console.log(e.getHours());
+console.log(e.getMinutes());
+console.log(e.getSeconds());
+console.log(e.getMilliseconds());
+console.log(e.getTime());
+
+//javascript date set method:-
+setDate() //sets the day of the month of a date
+setFullyear() //sets full year of the date and also month and day
+setHours() //set the hours of a date and also sets minutes ,seconds and milliseconds
+setMilliseconds() //sets the milliseconds of date
+setMinutes() //set the minutes ,seconds and milliseconds
+setSeconds() //sets the seconds,milliseconds of date
+setMonth() //sets the month of date ,day of the month
+setTime() //sets date and time by adding or subracting a specified number of milliseconds(to/from mid of jan 1 1990)
+
+const f = new Date();
+console.log(f.setDate(27));
+
+**********************************
+Javascript Array Methods
+************************
